@@ -12,7 +12,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/role_based_portal/css/role_based_portal.css"
-app_include_js = "/assets/role_based_portal/js/role_based_portal.js"
+# app_include_js = "/assets/role_based_portal/js/role_based_portal.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/role_based_portal/css/role_based_portal.css"
@@ -205,3 +205,7 @@ after_install = "role_based_portal.install.after_install"
 
 # Login hooks
 on_login = "role_based_portal.auth.on_login"
+
+# Disable asset building for this app
+app_include_js = []
+app_include_css = []
