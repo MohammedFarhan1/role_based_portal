@@ -209,3 +209,5 @@ on_login = "role_based_portal.auth.on_login"
 # Disable asset building for this app
 app_include_js = []
 app_include_css = []
+web_include_js = []
+web_include_css = []
