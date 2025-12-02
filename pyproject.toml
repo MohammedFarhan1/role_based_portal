@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "role_based_portal"
+authors = [{name = "Your Company", email = "admin@yourcompany.com"}]
+dynamic = ["version", "description"]
+readme = "README.md"
+dependencies = [
+    "frappe"
+]
+
+[project.urls]
+Repository = "https://github.com/yourcompany/role_based_portal"
+
+[tool.bench.dev-dependencies]
+# Add any development dependencies here

@@ -1,0 +1,25 @@
+{
+ "content": null,
+ "creation": "2024-01-01 00:00:00.000000",
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Role Based Portal",
+ "name": "business-dashboard",
+ "owner": "Administrator",
+ "page_name": "Business Dashboard",
+ "roles": [
+  {
+   "role": "Business User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Business Dashboard"
+}

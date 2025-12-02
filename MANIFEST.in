@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include role_based_portal *.css
+recursive-include role_based_portal *.csv
+recursive-include role_based_portal *.html
+recursive-include role_based_portal *.ico
+recursive-include role_based_portal *.js
+recursive-include role_based_portal *.json
+recursive-include role_based_portal *.md
+recursive-include role_based_portal *.png
+recursive-include role_based_portal *.py
+recursive-include role_based_portal *.svg
+recursive-include role_based_portal *.txt
+recursive-exclude role_based_portal *.pyc
